@@ -6,11 +6,26 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		961523FC25D48B8B007E5BAD /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
+		961523FE25D48C65007E5BAD /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		961523F525D48B43007E5BAD = {
 			isa = PBXGroup;
 			children = (
+				961523FD25D48C46007E5BAD /* html */,
+				961523FC25D48B8B007E5BAD /* Dockerfile */,
 			);
+			sourceTree = "<group>";
+		};
+		961523FD25D48C46007E5BAD /* html */ = {
+			isa = PBXGroup;
+			children = (
+				961523FE25D48C65007E5BAD /* index.html */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
